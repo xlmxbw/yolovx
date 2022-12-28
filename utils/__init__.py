@@ -7,6 +7,9 @@ import contextlib
 import platform
 import threading
 
+import sys
+
+sys.dont_write_bytecode = True
 
 def emojis(str=''):
     # Return platform-dependent emoji-safe version of string

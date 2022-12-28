@@ -159,7 +159,7 @@ def run(
         callbacks=Callbacks(),
 ):
     if save_json:
-        check_requirements('pycocotools>=2.0.6')
+        check_requirements(['pycocotools'])
         process = process_mask_native  # more accurate
     else:
         process = process_mask  # faster
