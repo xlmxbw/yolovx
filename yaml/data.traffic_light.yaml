@@ -1,4 +1,4 @@
-path: /kaggle/input/trafficlights/traffic_light
+path: /kaggle/input/database
 train: train.txt
 val: val.txt
 test: test.txt
