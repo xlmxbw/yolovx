@@ -2,10 +2,10 @@
 # -*- coding:utf-8 -*-
 
 model='.lite'
-module='07'
+module='06'
 epochs=1000
 img_size=640
-batch_size=64
+batch_size=32
 label_smoothing=0.0
 
 
